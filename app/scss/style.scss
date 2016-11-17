@@ -2,14 +2,20 @@ $red: #ff0000;
 $green: #00ff00;
 $blue: #0000ff;
 
+body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
 h1 {
-	color: $red;	
+	color: orange;	
 }
 
 p {
-	color: $blue;
+	color: brown;
 }
 
 h2 {
-	color: $green;
+	color: pink;
 }
