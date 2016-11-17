@@ -14,5 +14,8 @@
     "test",
     "tests"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "susy": "^2.2.12",
+    "breakpoint": "^4.6.4"
+  }
 }
