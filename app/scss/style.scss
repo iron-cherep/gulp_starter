@@ -1,21 +1,26 @@
-$red: #ff0000;
-$green: #00ff00;
-$blue: #0000ff;
+@import "breakpoint";
+@import "normalize.css";
 
-body {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+
+$bkpt-login-small: 370px;
+$bkpt-login-medium: 490px;
+$bkpt-login-large: 865px;
+
+body{
+ background-color: red;
 }
-
-h1 {
-	color: orange;	
+@include breakpoint($bkpt-login-small){
+ body{
+  background-color: orange;
+ }
 }
-
-p {
-	color: brown;
+@include breakpoint($bkpt-login-medium){
+ body{
+  background-color: yellow;
+ }
 }
-
-h2 {
-	color: pink;
+@include breakpoint($bkpt-login-large){
+ body{
+  background-color: green;
+ }
 }

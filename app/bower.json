@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "susy": "^2.2.12",
-    "breakpoint": "^4.6.4"
+    "breakpoint": "^4.6.4",
+    "normalize-css": "normalize.css#^5.0.0"
   }
 }

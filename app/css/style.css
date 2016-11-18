@@ -1,20 +1,20 @@
+@import url(normalize.css);
 body {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  background-color: red;
 }
 
-h1 {
-  color: orange;
+@media (min-width: 370px) {
+  body {
+    background-color: orange;
+  }
 }
-
-p {
-  color: brown;
+@media (min-width: 490px) {
+  body {
+    background-color: yellow;
+  }
 }
-
-h2 {
-  color: pink;
+@media (min-width: 865px) {
+  body {
+    background-color: green;
+  }
 }
